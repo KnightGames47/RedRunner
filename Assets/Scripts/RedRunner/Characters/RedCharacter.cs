@@ -265,7 +265,6 @@ namespace RedRunner.Characters
 		{
 			m_InitialPosition = transform.position;
 			m_InitialScale = transform.localScale;
-			m_GroundCheck.OnGrounded += GroundCheck_OnGrounded;
 			m_Skeleton.OnActiveChanged += Skeleton_OnActiveChanged;
             IsDead = new Property<bool>(false);
 			m_ClosingEye = false;
